@@ -10,7 +10,7 @@ import CartToast from './components/CartToast';
 export default function App() {
   return (
     <CartProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/arcticfox/">
         <CartToast />
         <Routes>
           <Route path="/" element={<Home />} />
