@@ -549,7 +549,8 @@ input { font-family: inherit; }
 /* Left brand panel */
 .auth-brand-panel {
   flex: 1; position: relative;
-  background: url('/images/hero1.png') center/cover no-repeat;
+  background-color: var(--black);
+  background-size: cover; background-position: center; background-repeat: no-repeat;
   display: flex; align-items: stretch;
 }
 .auth-brand-overlay {

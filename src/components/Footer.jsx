@@ -8,7 +8,7 @@ export default function Footer() {
           <div className="footer-grid">
             <div>
               <div className="footer-brand">
-                <img src="/images/logo.png" alt="Arctic Fox" />
+                <img src={`${import.meta.env.BASE_URL}images/logo.png`} alt="Arctic Fox" />
                 <span>Arctic Fox</span>
               </div>
               <p className="footer-desc">

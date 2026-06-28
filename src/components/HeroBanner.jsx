@@ -5,23 +5,25 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { FiArrowRight } from 'react-icons/fi';
 
+const BASE = import.meta.env.BASE_URL;
+
 const slides = [
   {
-    image: '/images/hero1.png',
+    image: `${BASE}images/hero1.png`,
     tag: 'New Season',
     title: 'Unleash Your\nWild Side',
     subtitle: 'Discover the Arctic Fox Summer \'26 collection — premium oversized tees crafted for those who dare to stand out.',
     cta: 'Shop Now',
   },
   {
-    image: '/images/hero2.png',
+    image: `${BASE}images/hero2.png`,
     tag: 'Squad Goals',
     title: 'Better Together,\nBolder Together',
     subtitle: 'Matching fits that make a statement. Explore our crew-ready streetwear drops.',
     cta: 'Explore Collection',
   },
   {
-    image: '/images/hero3.png',
+    image: `${BASE}images/hero3.png`,
     tag: 'Trending',
     title: 'Tie-Dye\nReimagined',
     subtitle: 'Pastel dreams meet street-ready comfort. Limited edition tie-dye drops are here.',

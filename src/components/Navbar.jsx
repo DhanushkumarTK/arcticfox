@@ -35,7 +35,7 @@ export default function Navbar() {
           </div>
 
           <Link to="/" className="navbar-brand">
-            <img src="/images/logo.png" alt="Arctic Fox" />
+            <img src={`${import.meta.env.BASE_URL}images/logo.png`} alt="Arctic Fox" />
             <span className="brand-text">Arctic Fox</span>
           </Link>
 

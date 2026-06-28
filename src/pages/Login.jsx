@@ -94,10 +94,10 @@ export default function Login() {
   return (
     <div className="auth-page">
       {/* Left — branding panel */}
-      <div className="auth-brand-panel">
+      <div className="auth-brand-panel" style={{ backgroundImage: `url(${import.meta.env.BASE_URL}images/hero1.png)` }}>
         <div className="auth-brand-overlay">
           <a href="/" className="auth-logo">
-            <img src="/images/logo.png" alt="Arctic Fox" />
+            <img src={`${import.meta.env.BASE_URL}images/logo.png`} alt="Arctic Fox" />
             <span>Arctic Fox</span>
           </a>
           <div className="auth-brand-content">
@@ -117,7 +117,7 @@ export default function Login() {
         <div className="auth-form-wrapper">
           {/* Mobile logo */}
           <a href="/" className="auth-mobile-logo">
-            <img src="/images/logo.png" alt="Arctic Fox" />
+            <img src={`${import.meta.env.BASE_URL}images/logo.png`} alt="Arctic Fox" />
             <span>Arctic Fox</span>
           </a>
 

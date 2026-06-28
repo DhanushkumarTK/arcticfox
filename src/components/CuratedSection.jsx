@@ -1,20 +1,22 @@
 import { FiArrowRight } from 'react-icons/fi';
 
+const BASE = import.meta.env.BASE_URL;
+
 const curated = [
   {
-    image: '/images/hero1.png',
+    image: `${BASE}images/hero1.png`,
     tag: 'Style Edit',
     title: 'Street Style',
     desc: 'Urban-ready fits for the bold.',
   },
   {
-    image: '/images/hero3.png',
+    image: `${BASE}images/hero3.png`,
     tag: 'Curated',
     title: 'Minimal Edit',
     desc: 'Less is more. Clean cuts, calm tones.',
   },
   {
-    image: '/images/hero2.png',
+    image: `${BASE}images/hero2.png`,
     tag: 'Trending',
     title: 'Bold & Graphic',
     desc: 'Statement tees that speak for you.',
